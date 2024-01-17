@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+    text-shadow: 1px 1px rgb(131, 131, 131);
+    background-color: rgb(113, 83, 59);
+  }
+  
+h1 {
+  color: white;
+  background-color: green;
+}
+
+p {
+  font-size: 20px;
+}
+
+#logo {
+  width: 1000px;
+}
+
+#topic-group {
+  border: 5px green solid; 
+}
+
+.indentList {
+  margin: 20px;
+}
