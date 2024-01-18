@@ -3,10 +3,20 @@ body {
     text-shadow: 1px 1px rgb(131, 131, 131);
     background-color: rgb(113, 83, 59);
   }
+
+table, th, td {
+  border: 1px black solid;
+}
   
 h1 {
   color: white;
   background-color: green;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h2 {
+  text-align: center;
 }
 
 p {
@@ -14,13 +24,26 @@ p {
 }
 
 #logo {
-  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #topic-group {
+  background-color: rgb(126, 170, 247);
   border: 5px green solid; 
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.indentList {
+#list-title {
+  text-align: center;
+}
+
+.specList {
   margin: 20px;
+  display: flex;
+  justify-content: center;
 }
